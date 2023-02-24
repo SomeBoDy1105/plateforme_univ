@@ -1,0 +1,28 @@
+name: plateforme_univ
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smooth_page_indicator: ^1.0.1
+  google_nav_bar: ^5.0.6
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.2.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  
+  uses-material-design: true
+
+  assets:
+    - assets/
